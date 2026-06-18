@@ -8,7 +8,7 @@ import dots from "../assets/dots-yellow.svg";
 
 const Service = () => {
   return (
-    <div className="grid grid-cols-2 p-4 ml-10 max-sm:ml-0 max-sm:p-0 max-sm:w-screen">
+    <div className="grid grid-cols-2 p-4 ml-10 max-sm:ml-0 max-sm:p-0 max-sm:w-screen max-xl:ml-2 max-xl:p-2">
       <div className="">
         <div className="font-poppins grid p-4 ml-10 max-sm:ml-0 mb-2">
           <h1 className="text-4xl font-semibold mb-4 max-sm:text-xl">Why Choose Us</h1>

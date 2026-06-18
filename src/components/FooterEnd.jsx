@@ -3,7 +3,7 @@ import React from 'react'
 const FooterEnd = () => {
   return (
     <>
-        <div className=" flex justify-between max-sm:gap-2 items-center m-6 p-4 max-sm:text-xs max-sm:p-0 max-sm:m-0 max-sm:w-screen max-sm:flex-col">
+        <div className=" flex justify-between max-sm:gap-2 items-center m-6 p-4 max-xl:p-2 max-xl:m-2 max-sm:text-xs max-sm:p-0 max-sm:m-0 max-sm:w-screen max-sm:flex-col">
         <span>
             <h1 className='max-sm:w-screen max-sm:p-2'>
           Copyright ©2026. All Rights Reserved.— Designed with love by

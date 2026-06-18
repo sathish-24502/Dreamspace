@@ -6,7 +6,7 @@ import { FaPlus, FaRupeeSign } from "react-icons/fa";
 
 const Products = () => {
   return (
-    <div className="flex max-sm:flex-col justify-around items-center font-poppins mx-4 my-20 max-sm:my-4">
+    <div className="flex max-sm:flex-col justify-around items-center font-poppins mx-4 my-20 max-sm:my-4 max-xl:px-10">
       <span className="grid gap-3 max-sm:gap-2">
         <h1 className="text-4xl font-semibold max-sm:text-lg">Crafted With</h1>
         <h1 className="text-4xl font-semibold max-sm:text-lg">Excellent Material.</h1>

@@ -13,13 +13,13 @@ const SubscribeLetter = () => {
             <span className='flex gap-2 max-sm:flex-col'>
                 <input type="text" placeholder='Enter Your Name' className='border w-72 max-sm:w-60 p-2 rounded-xl focus-within:outline-none'/>
             <input type="text" placeholder='Enter Email' className='border w-72 max-sm:w-60 p-2 rounded-xl focus-within:outline-none'/>
-            <button className='shadow-sm hover:shadow-gray-500 w-44 max-sm:w-32 rounded-3xl bg-green-700 text-white font-semibold hover:bg-green-900'>Send</button>
+            <button className='shadow-sm hover:shadow-gray-500 w-44  max-xl:w-28 max-sm:w-32 rounded-3xl bg-green-700 text-white font-semibold hover:bg-green-900'>Send</button>
             </span>
            
         </div>
 
          <div className='max-sm:hidden'>
-         <img src={sofa} alt="sofa" className='w-96 -mt-28'/>
+         <img src={sofa} alt="sofa" className='w-96 -mt-28 max-xl:-mt-16'/>
             </div>
          
     </div>

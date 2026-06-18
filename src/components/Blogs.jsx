@@ -4,14 +4,14 @@ import post2 from "../assets/post-2.jpg";
 import post3 from "../assets/post-3.jpg";
 const Blogs = () => {
   return (
-    <div className="bg-orange-50 p-20 font-poppins max-sm:p-2">
+    <div className="bg-orange-50 p-20 font-poppins  max-xl:p-4 max-sm:p-2">
       <span className="flex justify-between items-center font-poppins mx-20 p-4 max-sm:mx-0">
         <h1 className="text-3xl font-semibold max-sm:text-lg">Recent Blog</h1>
         <button className="underline max-sm:text-sm text-gray-500 hover:text-black">
           View All Posts
         </button>
       </span>
-      <div className="font-poppins grid grid-cols-3 ml-20 max-sm:grid-cols-1 max-sm:ml-0">
+      <div className="font-poppins grid grid-cols-3 ml-20 max-sm:grid-cols-1 max-xl:ml-0 max-sm:ml-0">
         <span className="">
           <img src={post1} alt="POST1" className="w-96 max-sm:w-72 rounded-3xl p-4 " />
           <h1 className="font-semibold text-lg mb-1 ml-10 max-sm:text-sm">First Time Home Owner Ideas</h1>

@@ -9,13 +9,14 @@ const ShowCase = () => {
   
   return (
     <>
-      <div className="flex justify-between  p-8 m-10 mt-72 font-poppins gap-4 max-sm:gap-8  max-sm:mt-10 max-sm:p-0 max-sm:m-3 max-sm:flex-col">
-        <span className="grid grid-flow-col gap-3 justify-center items-center p-4 max-sm:grid-flow-row max-sm:text-sm">
+    {/* <h1 className="text-lg font-poppins font-semibold text-green-950">Timeless Materials, Modern Spaces</h1> */}
+      <div className="flex justify-between  p-8 m-10 mt-72 max-xl:mt-12 font-poppins gap-4  max-sm:gap-8  max-sm:mt-10 max-sm:p-0 max-sm:m-3 max-sm:flex-col">
+        <span className="grid grid-flow-col max-xl:grid-flow-row gap-3 max-xl:gap-1 justify-center items-center p-4 max-sm:grid-flow-row max-sm:text-sm">
           <span className="w-44 h-44 max-sm:w-32 max-sm:h-28 bg-orange-100 rounded-3xl relative"></span>
           <img
             src={product1}
             alt="product-1"
-            className="size-44 max-sm:size-32 absolute mb-10 max-sm:mb-48"
+            className="size-44 max-sm:size-32 absolute mb-10 max-xl:mb-36 max-sm:mb-48 max-md:mt-20"
           />
           <div className="grid">
             <h1 className="flex justify-center font-semibold">Nordic Chair</h1>
@@ -27,12 +28,12 @@ const ShowCase = () => {
            
           </div>
         </span>
-        <span className="grid grid-flow-col gap-2 justify-center items-center p-4 max-sm:grid-flow-row max-sm:text-sm">
+        <span className="grid grid-flow-col max-xl:grid-flow-row gap-2 justify-center items-center p-4 max-sm:grid-flow-row max-sm:text-sm">
           <span className="w-44 h-44 max-sm:w-32 max-sm:h-28 bg-orange-100 rounded-3xl relative"></span>
           <img
             src={product2}
             alt="product-1"
-            className="size-44 max-sm:size-32 absolute mb-10 max-sm:mb-48"
+            className="size-44 max-sm:size-32 absolute mb-10 max-xl:mb-36 max-sm:mb-48 max-md:mt-20"
           />
           <div className="grid">
             <h1 className="flex justify-center font-semibold">
@@ -46,12 +47,12 @@ const ShowCase = () => {
             </p>
           </div>
         </span>
-        <span className="grid grid-flow-col gap-2 justify-center items-center p-4 max-sm:grid-flow-row max-sm:text-sm">
+        <span className="grid grid-flow-col max-xl:grid-flow-row gap-2 justify-center items-center p-4 max-sm:grid-flow-row max-sm:text-sm">
           <span className="w-44 h-44 max-sm:w-32 max-sm:h-28 bg-orange-100 rounded-3xl relative"></span>
           <img
             src={product3}
             alt="product-1"
-            className="size-44 max-sm:size-32 absolute mb-10 max-sm:mb-48"
+            className="size-44 max-sm:size-32 absolute mb-10 max-xl:mb-36 max-md:mt-20 max-sm:mb-48"
           />
           <div className="grid">
             <h1 className="flex justify-center font-semibold">

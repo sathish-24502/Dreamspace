@@ -8,7 +8,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="font-poppins grid grid-flow-row grid-cols-2 max-sm:grid-cols-1 items-center justify-center gap-4 m-4 max-sm:m-2 max-sm:p-4 p-6 border-b-2">
+    <div className="font-poppins grid grid-flow-row grid-cols-2 max-xl:grid-cols-1 max-sm:grid-cols-1 items-center justify-center gap-4 m-4 max-sm:m-2 max-sm:p-4 p-6 max-xl:p-2 border-b-2">
       <div className="grid gap-8 max-sm:gap-3 max-sm:text-sm">
         <h1 className="text-2xl font-sans text-green-950 font-semibold max-sm:text-xl">DreamSpace.</h1>
         <p className="w-3/4 max-sm:text-xs">
@@ -19,7 +19,7 @@ const Footer = () => {
           detail in every project. Let us bring your dream home to life with
           designs that inspire and impress.
         </p>
-        <span className="flex items-center gap-4 max-sm:gap-2">
+        <span className="flex items-center gap-4 max-xl:ml-4 max-xl:mb-8 max-sm:gap-2">
           <FaFacebook
             title="Facebook"
             className="size-8 max-sm:size-6 border border-green-700 shadow-sm hover:scale-90 hover:duration-150 hover:shadow-gray-400 p-1 rounded-xl text-blue-900"
@@ -39,7 +39,7 @@ const Footer = () => {
         </span>
       </div>
 
-      <div className="flex gap-20 max-sm:text-xs max-sm:grid max-sm:grid-cols-2 max-sm:items-center max-sm:gap-4">
+      <div className="grid grid-flow-col max-sm:grid-flow-row gap-20 max-xl:mx-20 max-md:mx-1 max-md:list-none max-xl:grid-cols-2 max-sm:text-xs max-sm:grid max-sm:grid-cols-2 max-sm:items-center max-sm:gap-4">
         <span className="grid gap-2">
           <li>About us</li>
           <li>Services</li>
