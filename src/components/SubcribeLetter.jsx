@@ -10,7 +10,7 @@ const SubscribeLetter = () => {
                 <FaEnvelope className='text-green-900'/>
             <h1 className='text-green-950 font-medium text-xl'>Subscribe To Newsletter</h1>
             </span>
-            <span className='flex gap-2 max-sm:flex-col'>
+            <span className='flex gap-2 max-xl:flex-col max-sm:flex-col'>
                 <input type="text" placeholder='Enter Your Name' className='border w-72 max-sm:w-60 p-2 rounded-xl focus-within:outline-none'/>
             <input type="text" placeholder='Enter Email' className='border w-72 max-sm:w-60 p-2 rounded-xl focus-within:outline-none'/>
             <button className='shadow-sm hover:shadow-gray-500 w-44  max-xl:w-28 max-sm:w-32 rounded-3xl bg-green-700 text-white font-semibold hover:bg-green-900'>Send</button>
@@ -19,7 +19,7 @@ const SubscribeLetter = () => {
         </div>
 
          <div className='max-sm:hidden'>
-         <img src={sofa} alt="sofa" className='w-96 -mt-28 max-xl:-mt-16'/>
+         <img src={sofa} alt="sofa" className='w-96 -mt-28 max-xl:w-60 max-xl:-mt-16'/>
             </div>
          
     </div>

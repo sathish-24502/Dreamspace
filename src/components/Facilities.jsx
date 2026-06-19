@@ -7,16 +7,16 @@ import dotsgreen from "../assets/dots-green.svg";
 const Facilities = () => {
   return (
     <>
-      <div className="max-xl:ml-12">
-        <div className="flex items-center p-4 m-8 mt-20 max-sm:hidden">
+      <div className="p-4 max-xl:ml-2">
+        <div className="flex items-center p-4 m-8 mt-20 max-xl:mt-10 max-xl:m-4 max-xl:p-4 max-sm:hidden">
           <span className="">
-            <img src={dotsgreen} alt="dotsgreen" className="relative" />
+            <img src={dotsgreen} alt="dotsgreen" className="relative max-xl:size-44" />
           </span>
           <span>
             <img
               src={Picture1}
               alt="Picture1"
-              className="absolute -ml-44 mt-2 w-1/3 max-xl:w-60 max-xl: max-xl:-mt-8 rounded-3xl"
+              className="absolute -ml-44 mt-2 w-1/3 max-xl:w-60 max-xl:-ml-36 max-xl:-mt-4 rounded-3xl"
             />
           </span>
         </div>
@@ -25,12 +25,12 @@ const Facilities = () => {
           <img
             src={Picture2}
             alt="Picture2"
-            className="w-80 absolute ml-96 -mt-60 max-xl:w-44 max-xl:ml-4 max-xl:-mt-8 rounded-3xl"
+            className="w-80 absolute ml-96 -mt-60 max-xl:w-32 max-xl:ml-2 max-xl:mt-12 rounded-3xl"
           />
         </span>
       </div>
 
-      <div className="grid justify-end font-poppins gap-4 mr-4 -mt-44 max-xl:-mt-60 max-xl:mr-28 max-sm:mt-8 max-sm:mr-0 max-sm:mx-4  max-sm:p-2 max-sm:justify-center max-sm:items-center max-sm:text-xs">
+      <div className="grid justify-end font-poppins gap-4 mr-4 -mt-44 max-xl: max-xl: max-sm:mt-8 max-sm:mr-0 max-sm:mx-4  max-sm:p-2 max-sm:justify-center max-sm:items-center max-sm:text-xs">
         <h1 className="text-3xl font-semibold w-96 max-xl:text-2xl text-gray-600 max-sm:w-60 max-sm:text-lg">
           We Help You Make Modern Interior Design
         </h1>

@@ -39,7 +39,7 @@ const Footer = () => {
         </span>
       </div>
 
-      <div className="grid grid-flow-col max-sm:grid-flow-row gap-20 max-xl:mx-20 max-md:mx-1 max-md:list-none max-xl:grid-cols-2 max-sm:text-xs max-sm:grid max-sm:grid-cols-2 max-sm:items-center max-sm:gap-4">
+      <div className="grid grid-flow-col max-sm:grid-flow-row gap-20 max-xl:mx-10 max-md:mx-1 max-md:list-none max-xl:grid-cols-2 max-sm:text-xs max-sm:grid max-sm:grid-cols-2 max-sm:items-center max-sm:gap-4">
         <span className="grid gap-2">
           <li>About us</li>
           <li>Services</li>
