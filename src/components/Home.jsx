@@ -1,5 +1,6 @@
 import React from "react";
 import couch from "../assets/couch.png";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -21,9 +22,9 @@ function Home() {
           <button className="mt-20 bg-orange-500 border-2 max-sm:h-10 max-sm:flex max-xl:text-sm max-sm:items-center border-orange-300 hover:border-white hover:shadow-orange-100 shadow rounded-md text-black p-3 max-xl:p-2 text-xl max-sm:text-sm">
             Shop Now
           </button>
-          <button className="mt-20 border-2 max-sm:h-10 max-sm:flex max-xl:text-sm  max-sm:items-center border-orange-300 hover:border-white hover:shadow-orange-100 shadow rounded-md text-black p-3 max-xl:p-2 text-xl max-sm:text-sm">
+          <Link to="/interiorproducts" className="mt-20 border-2 max-sm:h-10 max-sm:flex max-xl:text-sm  max-sm:items-center border-orange-300 hover:border-white hover:shadow-orange-100 shadow rounded-md text-black p-3 max-xl:p-2 text-xl max-sm:text-sm">
             Explore
-          </button>
+          </Link>
         </span>
       </div>
       <span className="flex justify-end  max-xl:p-4 items-end max-sm:hidden">
