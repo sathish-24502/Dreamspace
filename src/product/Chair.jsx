@@ -18,7 +18,7 @@ const Chair = () => {
 
   return (
     <>
-      <div className="font-poppins grid items-center px-10 py-8 gap-2 bg-orange-400 mb-8 max-sm:mb-4 max-sm:px-0 max-sm:py-4">
+      <div className="font-poppins grid items-center px-10 py-8 gap-2 bg-orange-400 mb-8 max-sm:mb-4 max-sm:px-0 max-sm:py-20">
         <span className="text-2xl max-sm:text-lg font-semibold text-white">
           <h1 className="max-sm:ml-8">Crafted for Comfort ,</h1>
           <h2 className="-ml-2 max-sm:ml-4"> Designed for Life.</h2>
@@ -44,7 +44,7 @@ const Chair = () => {
           </div>
         </span>
       </div>
-      <div className="grid grid-flow-col max-xl:grid-rows-2 max-xl:justify-center max-2xl:flex max-sm:justify-center p-4 ml-6 font-poppins mb-8 max-sm:ml-0 max-sm:gap-6 max-xl:gap-20 max-sm:grid-flow-row">
+      <div className="grid grid-flow-col items-center max-xl:grid-rows-2 max-xl:justify-center max-sm:justify-center p-4 ml-6 font-poppins mb-8 max-sm:ml-0 max-sm:gap-6 max-xl:gap-20 max-sm:flex max-sm:flex-col">
         {ChairImages.map((ChairImages, index) => (
           <div className="grid gap-2">
             <img
