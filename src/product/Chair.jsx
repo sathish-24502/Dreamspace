@@ -1,18 +1,18 @@
 import React from "react";
-import Chair1 from "../assets/chair1.jpg";
-import Chair2 from "../assets/chair2.jpg";
-import Chair3 from "../assets/chair3.jpg";
-import Chair4 from "../assets/chair4.jpg";
-import Chair5 from "../assets/chair5.jpg";
+import chair1 from "../assets/chair1.jpg";
+import chair2 from "../assets/chair2.jpg";
+import chair3 from "../assets/chair3.jpg";
+import chair4 from "../assets/chair4.jpg";
+import chair5 from "../assets/chair5.jpg";
 import { FaRupeeSign } from "react-icons/fa";
 
 const Chair = () => {
 
   const ChairImages = [
-    { image: Chair2, Name: "Oslo Relax Chair", Price: "7,500.00" },
-    { image: Chair3, Name: "Luna Accent Chair", Price: "4,500.00" },
-    { image: Chair4, Name: "Verona Executive Chair", Price: "9,500.00" },
-    { image: Chair5, Name: "Nordic Comfort Chair", Price: "8,500.00" },
+    { image: chair2, Name: "Oslo Relax Chair", Price: "7,500.00" },
+    { image: chair3, Name: "Luna Accent Chair", Price: "4,500.00" },
+    { image: chair4, Name: "Verona Executive Chair", Price: "9,500.00" },
+    { image: chair5, Name: "Nordic Comfort Chair", Price: "8,500.00" },
   ];
   console.log(ChairImages);
 
@@ -25,7 +25,7 @@ const Chair = () => {
         </span>
         <span className="flex gap-8 flex-row-reverse mx-10 max-xl:mx-4 max-sm:gap-4 max-xl:gap-4 max-sm:flex-col-reverse">
           <img
-            src={Chair1}
+            src={chair1}
             alt="Adverisement-Image"
             className="w-96 mr-10 max-xl:mr-4 rounded-full max-xl:rounded-3xl max-sm:rounded-3xl max-sm:mr-0 max-xl:w-60 max-sm:w-60"
           />
