@@ -4,7 +4,6 @@ import Chair2 from "../assets/chair2.jpg";
 import Chair3 from "../assets/chair3.jpg";
 import Chair4 from "../assets/chair4.jpg";
 import Chair5 from "../assets/chair5.jpg";
-import Chair6 from "../assets/chair-plantTable.jpg";
 import { FaRupeeSign } from "react-icons/fa";
 
 const Chair = () => {
