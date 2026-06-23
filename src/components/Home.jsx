@@ -19,10 +19,10 @@ function Home() {
           organization tips.
         </p>
         <span className="text-white font-semibold ml-20 max-xl:ml-1 flex gap-4 max-sm:ml-8 max-sm:gap-2">
-          <button className="mt-20 bg-orange-500 border-2 max-sm:h-10 max-sm:flex max-xl:text-sm max-sm:items-center border-orange-300 hover:border-white hover:shadow-orange-100 shadow rounded-md text-black p-3 max-xl:p-2 text-xl max-sm:text-sm">
+          <button className="mt-20 bg-orange-500 border-2 max-sm:h-10 max-sm:flex max-xl:text-sm max-sm:items-center border-orange-300 hover:border-white hover:shadow-orange-100 shadow rounded-md text-black p-3 max-xl:p-2 text-sm max-sm:text-sm">
             Shop Now
           </button>
-          <Link to="/interiorproducts" className="mt-20 border-2 max-sm:h-10 max-sm:flex max-xl:text-sm  max-sm:items-center border-orange-300 hover:border-white hover:shadow-orange-100 shadow rounded-md text-black p-3 max-xl:p-2 text-xl max-sm:text-sm">
+          <Link to="/interiorproducts" className="mt-20 border-2 max-sm:h-10 max-sm:flex max-xl:text-sm  max-sm:items-center border-orange-300 hover:border-white hover:shadow-orange-100 shadow rounded-md text-black p-3 max-xl:p-2 text-sm max-sm:text-sm">
             Explore
           </Link>
         </span>
