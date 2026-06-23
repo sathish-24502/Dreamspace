@@ -1,9 +1,9 @@
 import React from "react";
-import chair1 from "../assets/chair1.jpg";
-import chair2 from "../assets/chair2.jpg";
-import chair3 from "../assets/chair3.jpg";
-import chair4 from "../assets/chair4.jpg";
-import chair5 from "../assets/chair5.jpg";
+import chair1 from "../assets/Images/chair1.jpg";
+import chair2 from "../assets/Images/chair2.jpg";
+import chair3 from "../assets/Images/chair3.jpg";
+import chair4 from "../assets/Images/chair4.jpg";
+import chair5 from "../assets/Images/chair5.jpg";
 import { FaRupeeSign } from "react-icons/fa";
 
 const Chair = () => {
