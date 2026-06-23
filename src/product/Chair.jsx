@@ -3,11 +3,10 @@ import Chair1 from "../assets/chair1.jpg";
 import Chair2 from "../assets/chair2.jpg";
 import Chair3 from "../assets/chair3.jpg";
 import Chair4 from "../assets/chair4.jpg";
-import Chair5 from "../assets/chair5.jpg";
+import Chair5 from "../assets/hair5.jpg";
 import { FaRupeeSign } from "react-icons/fa";
 
 const Chair = () => {
-  // const ChairName =[{Oslo Relax Chair} ,{Luna Accent Chair} ,"Verona Executive Chair" ,"Nordic Comfort Chair"]
 
   const ChairImages = [
     { image: Chair2, Name: "Oslo Relax Chair", Price: "7,500.00" },
