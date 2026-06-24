@@ -4,7 +4,7 @@ import sofa1 from '../assets/Images/sofa1.jpg'
 import sofa2 from '../assets/Images/sofa2.jpg'
 import sofa3 from '../assets/Images/sofa3.jpg'
 import sofaAD from '../assets/Images/sofa-adImage.jpg'
-import sofaAd from '../assets/Images/sofa-adImge.jpg'
+
 import { FaRupeeSign } from 'react-icons/fa'
 
 const Couch = () => {
