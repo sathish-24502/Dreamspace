@@ -7,7 +7,6 @@ import chair5 from "../assets/Images/chair5.jpg";
 import { FaRupeeSign } from "react-icons/fa";
 
 const Chair = () => {
-
   const ChairImages = [
     { image: chair2, Name: "Oslo Relax Chair", Price: "7,500.00" },
     { image: chair3, Name: "Luna Accent Chair", Price: "4,500.00" },
@@ -18,7 +17,7 @@ const Chair = () => {
 
   return (
     <>
-      <div className="font-poppins grid items-center px-10 py-8 gap-2 bg-orange-400 mb-8 max-sm:mb-4 max-sm:px-0 max-sm:py-20">
+      {/* <div className="font-poppins grid items-center px-10 py-8 gap-2 bg-orange-400 mb-8 max-sm:mb-4 max-sm:px-0 max-sm:py-20">
         <span className="text-2xl max-sm:text-lg font-semibold text-white">
           <h1 className="max-sm:ml-8">Crafted for Comfort ,</h1>
           <h2 className="-ml-2 max-sm:ml-4"> Designed for Life.</h2>
@@ -43,7 +42,12 @@ const Chair = () => {
           </p>
           </div>
         </span>
-      </div>
+      </div> */}
+      <span>
+        <h1 className="text-2xl font-bold text-gray-800 mx-10 py-6 max-sm:text-lg max-sm:mx-5">
+          Modern Chair :
+        </h1>
+      </span>
       <div className="grid grid-flow-col items-center max-xl:grid-rows-2 max-xl:justify-center max-sm:justify-center p-4 ml-6 font-poppins mb-8 max-sm:ml-0 max-sm:gap-6 max-xl:gap-20 max-sm:flex max-sm:flex-col">
         {ChairImages.map((ChairImages, index) => (
           <div className="grid gap-2">
@@ -51,14 +55,14 @@ const Chair = () => {
               key={index}
               src={ChairImages.image}
               alt="ChairImages"
-              className="w-80 h-96 rounded-2xl max-sm:w-60 max-sm:h-72  max-xl:w-60 max-xl:h-72"
+              className="w-80 h-96 rounded-2xl border border-orange-100 shadow-md max-sm:w-72 max-sm:h-72  max-xl:w-80 max-xl:h-72"
             />
             <h1 className="font-semibold cursor-pointer">{ChairImages.Name}</h1>
             <p className="text-sm font-medium flex items-center">
               <FaRupeeSign />
               {ChairImages.Price}
             </p>
-            <button className="text-sm w-80 pr-4 max-xl:w-56 max-sm:w-60 flex justify-end items-end cursor-pointer hover:text-green-950 text-gray-600">
+            <button className="border w-80 p-1 cursor-pointer bg-green-500 focus:bg-green-700 hover:shadow-md focus:text-white rounded-md max-sm:w-72">
               Buy Now
             </button>
           </div>
