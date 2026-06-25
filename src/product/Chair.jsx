@@ -4,6 +4,10 @@ import chair2 from "../assets/Images/chair2.jpg";
 import chair3 from "../assets/Images/chair3.jpg";
 import chair4 from "../assets/Images/chair4.jpg";
 import chair5 from "../assets/Images/chair5.jpg";
+import chair6 from "../assets/product-1.png";
+import chair7 from "../assets/product-2.png";
+import chair8 from "../assets/product-3.png";
+import chair9 from "../assets/OfficeChair6.jpg";
 import { FaRupeeSign } from "react-icons/fa";
 
 const Chair = () => {
@@ -12,6 +16,10 @@ const Chair = () => {
     { image: chair3, Name: "Luna Accent Chair", Price: "4,500.00" },
     { image: chair4, Name: "Verona Executive Chair", Price: "9,500.00" },
     { image: chair5, Name: "Nordic Comfort Chair", Price: "8,500.00" },
+    { image: chair6, Name: "Nordic Chair", Price: "3,500.00" },
+    { image: chair7, Name: "Kruzo Aero Chair", Price: "4,500.00" },
+    { image: chair8, Name: "Ergonomic Chair", Price: "2,500.00" },
+    { image: chair9, Name: "Office Chair", Price: "4,500.00" },
   ];
   console.log(ChairImages);
 
@@ -48,7 +56,7 @@ const Chair = () => {
           Modern Chair :
         </h1>
       </span>
-      <div className="grid grid-flow-col items-center max-xl:grid-rows-2 max-xl:justify-center max-sm:justify-center p-4 ml-6 font-poppins mb-8 max-sm:ml-0 max-sm:gap-6 max-xl:gap-20 max-sm:flex max-sm:flex-col">
+      <div className="grid gap-12 grid-cols-4 items-center max-xl:grid-rows-2 max-xl:justify-center max-sm:justify-center p-4 ml-6 font-poppins mb-8 max-sm:ml-0 max-sm:gap-6 max-xl:gap-20 max-sm:flex max-sm:flex-col">
         {ChairImages.map((ChairImages, index) => (
           <div className="grid gap-2">
             <img

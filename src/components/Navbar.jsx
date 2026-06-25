@@ -15,7 +15,7 @@ const Navbar = () => {
           <p className='text-orange-100 hover:text-white border-orange-300 rounded-xl p-1 px-2 hover:border-orange-500 hover:shadow hover:shadow-slate-200'>Blog</p>
           <p className='text-orange-100 hover:text-white border-orange-300 rounded-xl p-1 px-2 hover:border-orange-500 hover:shadow hover:shadow-slate-200'>Contact</p>
           <FaUser title='Profile' className='size-4'/>
-          <FaCartPlus title='Cart' className='size-4'/>
+         <Link to="/cart"> <FaCartPlus title='Cart' className='size-4'/></Link>
         </div>
         <div className='hidden max-sm:flex rounded-sm text-white'>
           <FaBars/>
