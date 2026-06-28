@@ -23,7 +23,7 @@ const WoodFurni = () => {
           Modern Wood Fruniture :
         </h1>
       </span>
-      <div className="flex justify-evenly items-center py-10 max-sm:flex-col max-sm:gap-8">
+      <div className="flex justify-evenly items-center py-10 max-sm:flex max-sm:gap-8">
         {woods.map((woods, indx) => (
           <div className="grid gap-2">
             <img

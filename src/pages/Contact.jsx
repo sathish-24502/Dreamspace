@@ -21,48 +21,49 @@ const Contact = () => {
          </span>
           
        </div>
-      <span className="flex font-poppins items-center py-20">
+      <span className="flex font-poppins items-center py-28">
             <h1 className="text-4xl font-bold ml-10">Contact</h1>
           </span>
      </div>
-      <div className="">
-        <div className="flex justify-center items-center p-4">
-        <div className="mt-8 w-1/2 max-xl:w-4/5 px-10 rounded-xl shadow-2xl">
-        <span className="font-poppins text-xl max-xl:text-lg font-semibold text-gray-500 grid justify-center items-center p-2">
-            <p>Thanks To Contect Us , Plese Fill Our Details.</p>
-            <h1>Team-Dreamspace...</h1>
-        </span>
-          <div className="grid gap-6 justify-center items-center p-6">
-            <input
-              type="text"
-              required
-              value={name}
-              placeholder="Enter your Name"
-              className="border border-orange-100 focus:outline-none w-72 p-1 rounded-sm"
-            />
-            <input
-              type="text"
-              required
-              value={name}
-              placeholder="Enter your Email-Id"
-              className="border border-orange-100 focus:outline-none w-72 p-1 rounded-sm"
-            />
-            <textarea
-              name="message"
-              required
-              value={name}
-              placeholder="Message"
-              className="border border-orange-100 p-1 focus:outline-none w-72 h-48 rounded-sm text-gray-400"
-            >
-        
-            </textarea>
-            <button type="submit" className="flex justify-center p-1 w-44 mb-10 bg-orange-400 rounded-lg font-semibold hover:shadow-sm hover:shadow-orange-300">
-              Submit
-            </button>
-          </div>
-        </div>
-      </div>
-      </div>
+    <div className="flex justify-center items-center py-10 px-4 lg:my-0 sm:my-44">
+  <form className="w-full max-w-xl bg-white rounded-xl shadow-2xl p-8">
+    <div className="text-center mb-8">
+      <p className="text-lg md:text-xl font-semibold text-gray-500">
+        Thanks for Contacting Us. Please fill in your details.
+      </p>
+      <h1 className="text-xl md:text-2xl font-bold text-orange-500 mt-2">
+        Team Dreamspace
+      </h1>
+    </div>
+
+    <div className="flex flex-col gap-5">
+      <input
+        type="text"
+        placeholder="Enter your Name"
+        className="w-full border border-orange-200 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-orange-400"
+      />
+
+      <input
+        type="email"
+        placeholder="Enter your Email"
+        className="w-full border border-orange-200 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-orange-400"
+      />
+
+      <textarea
+        rows="6"
+        placeholder="Enter your Message"
+        className="w-full border border-orange-200 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-orange-400 resize-none"
+      ></textarea>
+
+      <button
+        type="submit"
+        className="w-full md:w-48 mx-auto bg-orange-500 text-white font-semibold py-3 rounded-lg hover:bg-orange-600 transition duration-300"
+      >
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
       <Footer/>
       <FooterEnd/>
       {/* <span className="absolute -mt-96 ">
