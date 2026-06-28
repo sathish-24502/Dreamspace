@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from '../assets/Images/Logo.jpg'
 import {
   FaFacebook,
   FaTwitter,
@@ -10,7 +11,8 @@ const Footer = () => {
   return (
     <div className="font-poppins grid grid-flow-row grid-cols-2 max-xl:grid-cols-1 max-sm:grid-cols-1 items-center justify-center gap-4 m-4 max-sm:m-2 max-sm:p-4 p-6 max-xl:p-2 border-b-2">
       <div className="grid gap-8 max-sm:gap-3 max-sm:text-sm">
-        <h1 className="text-2xl font-sans text-green-950 font-semibold max-sm:text-xl">DreamSpace.</h1>
+               <h1 className='flex items-center text-2xl max-xl:text-lg font-sans text-orange-700 rounded-2xl p-1 max-sm:text-sm'><img src={Logo} alt="Logo" className='size-8 rounded-xl'/>DreamS...</h1>
+       
         <p className="w-3/4 max-sm:text-xs">
           DreamSpace specializes in creating modern, elegant, and functional
           interior designs for every home. We combine contemporary style with
