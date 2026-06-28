@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import logo from '../src/assets/Logo.jpg'
 import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import WebPage from './pages/WebPage'
