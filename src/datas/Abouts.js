@@ -17,7 +17,22 @@ const about =[
 
     ]
    
-    const WhyUs = ["Premium Quality Materials" ,"Modern & Elegant Designs", "Affordable Prices","Fast & Secure Delivery","Excellent Customer Support"]
+    const WhyUs = [
+        {
+            point1 :"Premium Quality Materials",
+            point2 :"Modern & Elegant Designs",
+            point3 :"Affordable Prices",
+            point4 :"Fast & Secure Delivery",
+            point5 :"Excellent Customer Support",
+            point6 :"Dedicated Customer Support",
+            point7 :"Secure Shopping",
+            point8 :"Wide Range of Products",
+            point9 :"Eco-Friendly Materials",
+            point10 :"Expert Craftsmanship",
+            point11 :"ECustomer Satisfaction",
+            point12 :"Fast & Safe Delivery",
+        }
+    ]
 
 
 
