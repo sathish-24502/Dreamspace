@@ -24,19 +24,19 @@ const Footer = () => {
         <span className="flex items-center gap-4 max-xl:ml-4 max-xl:mb-8 max-sm:gap-2">
           <FaFacebook
             title="Facebook"
-            className="size-8 max-sm:size-6 border border-green-700 shadow-sm hover:scale-90 hover:duration-150 hover:shadow-gray-400 p-1 rounded-xl text-blue-900"
+            className="size-8 cursor-pointer max-sm:size-6 border border-green-700 shadow-sm hover:scale-90 hover:duration-150 hover:shadow-gray-400 p-1 rounded-xl text-blue-900"
           />
           <FaTwitter
             title="Twitter"
-            className="size-8 max-sm:size-6 border border-green-700 shadow-sm hover:scale-90 hover:duration-150 hover:shadow-gray-400 p-1 rounded-xl text-blue-900"
+            className="size-8 cursor-pointer max-sm:size-6 border border-green-700 shadow-sm hover:scale-90 hover:duration-150 hover:shadow-gray-400 p-1 rounded-xl text-blue-900"
           />
           <FaInstagram
             title="Instagram"
-            className="size-8 max-sm:size-6 border border-green-700 shadow-sm hover:scale-90 hover:duration-150 hover:shadow-gray-400 p-1 rounded-xl text-pink-900"
+            className="size-8 cursor-pointer max-sm:size-6 border border-green-700 shadow-sm hover:scale-90 hover:duration-150 hover:shadow-gray-400 p-1 rounded-xl text-pink-900"
           />
           <FaLinkedinIn
             title="LinkedIn"
-            className="size-8 max-sm:size-6 border border-green-700 shadow-sm hover:scale-90 hover:duration-150 hover:shadow-gray-400 p-1 rounded-xl text-blue-900"
+            className="size-8 cursor-pointer max-sm:size-6 border border-green-700 shadow-sm hover:scale-90 hover:duration-150 hover:shadow-gray-400 p-1 rounded-xl text-blue-900"
           />
         </span>
       </div>
